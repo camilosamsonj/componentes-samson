@@ -3,5 +3,23 @@ nav{
     padding: 10px;
     flex-flow: column wrap;
     background-color: lightblue;
-    height: 100vh;
+    height: calc(100vh - 10vh);
+    justify-content: flex-start;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid darkgray;
+    transition: all 0.3s;
 }
